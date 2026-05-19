@@ -1,0 +1,27 @@
+.footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80rem;
+
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
